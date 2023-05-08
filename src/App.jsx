@@ -6,9 +6,9 @@ function App() {
    
 
   return (
-    <> 
+    <main> 
      <QRcomponent/>
-    </>
+    </main>
   )
 }
 
