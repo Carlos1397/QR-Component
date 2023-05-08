@@ -22,6 +22,7 @@ const QRcomponent = () => {
                  object-cover" src={ruta} alt="Imagen QR" />
                 <h1 className="
                 Outfit
+                text-xl
                 text-DarkBlue
                  font-bold 
                  mt-4
