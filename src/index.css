@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+ 
+    /* FUENTES */
+    @font-face {
+        font-family:'Outfit', sans-serif;
+        src: url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+        font-weight: normal;
+        font-style: normal;
+    }
+    .Outfit{
+        font-family:'Outfit', sans-serif;
+    }
+}
