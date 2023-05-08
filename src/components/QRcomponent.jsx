@@ -8,8 +8,7 @@ const QRcomponent = () => {
         justify-center  
         items-center
         flex-col 
-        mx-auto 
-        
+        mx-auto         
         xl:w-3/12
         lg:w-3/12
         sm:w-4/12
@@ -26,7 +25,8 @@ const QRcomponent = () => {
                 '>
                 <img
                     className='
-                
+                    transition
+                    duration-300
                     rounded-md'
                     src={ruta} alt="Imgagen QR"
                 />
@@ -42,6 +42,8 @@ const QRcomponent = () => {
                     <h1 className="     
                         Outfitext
                         font-bold
+                        transition
+                        duration-300
                           text-DarkBlue 
                         text-6xl
                         sm:text-xl
@@ -51,6 +53,8 @@ const QRcomponent = () => {
                         Improve your front-end skills by buildng projects
                     </h1>
                     <p className='
+                     transition
+                     duration-300
                     mt-2
                     xs:text-sm
                         tracking-tight text-DarkBlue'>
