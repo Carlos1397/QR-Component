@@ -21,13 +21,17 @@ const QRcomponent = () => {
             <div className='
                 bg-white
                   p-5
-                  rounded-md
+                  rounded-2xl
+                  shadow-xl
+                  shadow-LightGray
                 '>
                 <img
                     className='
                     transition
                     duration-300
-                    rounded-md'
+                    rounded-md
+                   
+                    '
                     src={ruta} alt="Imgagen QR"
                 />
                 <div
